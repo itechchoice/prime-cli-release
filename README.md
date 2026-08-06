@@ -20,7 +20,7 @@ completions, and a self-contained HTML user guide covering every command.
 
 ## Download
 
-Grab the archive for your platform from the [latest release](../../releases/latest).
+Grab the archive for your platform from the [releases page](../../releases).
 
 | Platform | Architecture | Archive |
 |---|---|---|
