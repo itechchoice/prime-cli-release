@@ -25,6 +25,7 @@ Grab the archive for your platform from the [latest release](../../releases/late
 | Platform | Architecture | Archive |
 |---|---|---|
 | macOS | Apple Silicon (M1–M4) | `prime-<version>-darwin-arm64.tar.gz` |
+| macOS | Intel (x86-64) | `prime-<version>-darwin-amd64.tar.gz` |
 | Linux | x86-64 | `prime-<version>-linux-amd64.tar.gz` |
 | Linux | ARM64 | `prime-<version>-linux-arm64.tar.gz` |
 | Windows | x86-64 | `prime-<version>-windows-amd64.zip` |
@@ -47,7 +48,8 @@ cd prime-<version>-<platform>
 an install prefix automatically; override it when you want a different one:
 
 ```bash
-PREFIX=/opt/homebrew ./install.sh      # Apple Silicon Homebrew
+PREFIX=/opt/homebrew ./install.sh      # Homebrew on Apple Silicon
+PREFIX=/usr/local ./install.sh         # Homebrew on Intel Macs
 PREFIX="$HOME/.local" ./install.sh     # user-local, no sudo
 ```
 
